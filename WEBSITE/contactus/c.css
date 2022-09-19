@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+body{
+    background-image: url(ford2.png);
+    
+}
+
+.forms{
+    background-color: #0e0808dc; /* Fallback color */
+    background-color: rgba(235, 228, 228, 0.075); /* Black w/opacity/see-through */
+    border: 3px solid #0f0d0d17;
+  margin-top: 90px;
+  border-style: solid;
+  border-width: medium ;
+  border-radius: 40px;
+  width: 330px;
+  height: 650px;
+  
+  
+  margin-left: 1000px;
+  margin-bottom: 1200px;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+.co{
+    font-weight: 600;
+    font-size: 60px;
+    color: black;
+    padding-left: 150px ;
+
+    
+}
+.ge{
+    font-size: 35px;
+    color: blueviolet;
+    overflow: hidden;
+    padding-left: 150px;
+}
+
+.mar{
+    margin-top: 15px;
+    margin-left: -750px;
+    font-size: 35px;
+}
+
+.marg{
+    margin-top: -15px;
+    margin-left: 170px;
+    margin-bottom: 90px;
+    font-size: 30px;
+}
+
+.hr{
+    border-top: 2px solid black;
+}
+
+.topic{
+    
+    padding-top: 1px;
+}
+.f,.l,.e,.c,.f{
+    width: 80%;
+    margin: 5px 20px 5px 35px;
+    box-sizing: border-box;  
+}
+
+.s{
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+   
+    width: 80%;
+    margin: 5px 20px 5px 35px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+
+.f1,.t1,.e1,.c1,.fe{
+    font-size: 18px;
+    color: aliceblue;
+    padding-left: 38px;
+}
+.c2{
+padding-left: 50px;
+font-size: xxx-large;
+color: black;
+}
+
+.details{
+   
+    
+    margin-top: -1900px;
+    border-style: 1px solid;
+    position: relative;
+   
+    
+    
+}
+
+.hotline h2{
+    padding-right: 900px;
+    padding-top: 25px;
+    color:black;
+}
+
+.hotline{
+    padding-right: 1090px;
+    
+}
+
+/*Description1*/
+ .Description1 h3{
+     
+    
+     color: black;
+     font-size: 20px;
+     padding-left: 5px;
+     
+ }
+
+.Description1 a{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.Description1 p{
+    padding-left: 55px;
+    font-size: 18px;
+}
+
+.Description1{
+    
+    border-style: solid;
+    width: 250px;
+    margin-left: 80px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+/*Description2*/
+.Description2 h3{
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.Description2 a{
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.Description2 p{
+    padding-left: 70px;
+    font-size: 18px;
+}
+
+.Description2{
+    border-style: solid;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -130px;
+    border-radius: 10px;
+
+}
+
+/*Description3*/
+.Description3 h3{
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.Description3 a{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.Description3{
+    border-style: solid;
+    width: 250px;
+    margin: 80px;
+    border-radius: 10px;
+}
+
+/*Description4*/
+.Description4 h3{
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.Description4 a{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.Description4 p{
+    padding-left: 670px;
+}
+
+.Description4{
+    border-style: solid;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -160px;
+    border-radius: 10px;
+}
+
+/*Description5*/
+.Description5 h3{
+    color: black;
+    font-size: 20px;
+    padding-left:  10px;
+}
+
+.Description5 h4{
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.Description5{
+    border-style: solid;
+    width: 150px;
+     border-radius: 10px;
+    position: relative;
+   left: 10%;
+
+}
+
+
+/*Description6*/
+.Description6 h3{
+    color: black;
+    font-size: 20px;
+    margin-left: -55px;
+   
+}
+.Description6{
+    
+    border-style: solid;
+    width: 15%;
+    height: 130px;
+    position: relative;
+    left: 33%;
+    margin-top: -15%;
+    margin-bottom: 10%;
+     border-radius: 10px;
+   /* margin: 90px 450px;*/
+    
+}
+.Description6 h4{
+    color: black;
+    font-size: 18px;
+    padding-left: 580px;
+    margin-top: 20px;
+    margin-left: -560px;
+    margin-right: 20px;
+}
+ 
+
+

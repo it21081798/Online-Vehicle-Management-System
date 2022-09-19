@@ -1,0 +1,89 @@
+.image{
+
+    background-image: url(backg.png);
+}
+
+
+
+/*form designs*/
+.form{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.596);
+    position: relative;
+    top: 60px;
+    left: 450px;
+    width: 590px;
+    height: -200px;
+    background: rgba(255, 255, 255, 0.596);
+}
+
+.f1{
+    font-size: 25px;
+}
+
+.topic{
+position: relative;
+left: 40px;
+font-size: 50px;
+}
+
+.holder,.number,.edate,.cvv,.f1{
+ position: relative;
+ padding-left: 40px;
+ font-weight: bolder;
+}
+.cash{
+    border-style: 100px solid;
+}
+.f2{
+    position: relative;
+    margin-left: 38px;
+    width: 500px;
+}
+
+.f{
+    position: relative;
+    margin-left: 38px;
+}
+
+.ra{
+    position: relative;
+    margin-left: 38px;
+}
+
+.s{
+    position: relative;
+    left: 200PX;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /*padding: 10px 20px;*/
+    width: 200px;
+    top: -20px;
+    background-color: #1D3557;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+   
+}
+
+.s:hover {
+    background-color: #0077b6;
+  }
+
+.tot{
+
+    position: relative;
+    left: 120px;
+    font-size: 30px;
+
+}
+
+.to{
+    position: relative;
+    left: 150px;
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    bor
+}

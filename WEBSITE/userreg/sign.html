@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Vehicle Reservation</title>
+
+	<link rel="stylesheet" type="text/css" href="style/headerFooter.css">
+    <link rel="stylesheet" type="text/css" href="style/sign.css">
+    
+
+	<script src="script.js"></script>
+</head>
+<body>
+	
+	<div class="header">
+		
+		<ul class="menu">
+			<li class="menu"> <a href="#">Login</a> </li>
+			<li class="menu"> <a href="#">Sign Up</a> </li>
+		</ul>
+		
+		<img class="logo" src="images/logo.png" alt="logo">
+		<h2 >Ceylon Cabs</h2>
+		<h3 >- Rent your car - </h3>
+
+		<input type="text" name="searchHome" placeholder="Search here" class="search-box" >
+
+		<li  class="menu1"><a href = "" > About Us</a></li>
+        <li  class="menu1"><a href = "news.php" > News</a></li>
+        <li  class="menu1"><a href = "" > Career</a></li>
+		
+		<li  class="menu1"><a href = "package.php" > Packages</a></li>
+		<li  class="menu1"><a href = "" >Ride </a></li>
+		<li  class="menu1"><a href = "#" > Home</a></li>
+
+	</div>
+
+	<br>
+
+	<form onsubmit="return checkPassword1 ()"  action="con1.php"   method="post"  >
+		
+			<div class="card">
+				
+			<h2 class="subhead">User Registration</h2><br><br>
+
+			<h2 class="field">First Name:</h2><br>
+			<input type="text" class="class1"  name="fname" required placeholder><br><br>
+		
+			<h2 class="field">Last Name:</h2><br>
+			<input type="text" class="class1" name="lname" required placeholder><br><br>
+		
+			<h2 class="field">Gender:</h2><br>
+			<div class="sex">
+			<input type="radio" name="gender" class="gen" value="male">Male
+			<input type="radio" name="gender" class="gen" value="female">Female
+			</div>
+			<br><br>
+		
+			<h2 class="field">Mobile Number:</h2><br>
+			<input type="text" class="class1"  pattern="[0-9]{10}" required title="10 digits" name="mobile" ><br><br>
+	
+			<div class="dob">
+				<h2 class="field">Date of Birth:</h2>
+				<input type="date" min="1980-01-01" max="2005-12-31" class="class1" name="DOB" required>
+			</div>
+			
+			<br><br><br><br>
+			<br><br><br>
+
+			<h2 class="field">Address:</h2><br>
+			<textarea rows="5" cols="40" class="class1" name="address"></textarea><br><br>
+			
+			
+		
+			<h2 class="field">Email:</h2><br>
+			<input type="email" class="class1"  required title="abc@gmail.com" name="email"><br><br>
+			
+			
+			<h2 class="field">Password:</h2><br>
+			<input type="password" name="password1" class="class1" id="pw1" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must Contain At Least One Number And One Uppercase And Lowercase Letter,And At Least 10 Or More Charactters"><br><br>
+		    
+			<h2 class="field">Repeat Password:</h2><br>
+			<input type="password" name="password2" class="class1" id="pw2" >
+			
+			<br>
+			
+			<input type="checkbox" onchange="AcceptTerms1()" id="chkTerms1"><p class="field">Accept Privacy Policy & Terms.</p></a><br>
+			<br><br>
+			
+			<input type="submit" name="btnSub1" id="subReg1" class="register" value="Register" disabled >
+            <p><b>Already have a Account?</b><a href="#">Login</a></p>
+	</div>
+</from>
+
+
+
+
+<div class="footer">
+	
+	<a href="#" class="l1">Terms and Conditions&nbsp;&nbsp;&nbsp;</a>  <a href="#" class="l1">FAQ</a> </li> 
+	<img class="fb" src="images/fbLogo.png" alt="Facebook" width="25px"> 
+	<img class="twitter" src="images/twitter.png" alt="Twitter" width="25px"> 
+	<img class="insta" src="images/Instagram.png" alt="Instagram" width="25px">
+	<img class="linkedin" src="images/LinkedIn.png" alt="LinkedIn" width="25px"> <br> <br>
+
+	<a href="#" class="l1">Privacy Policies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li> 
+	<a href="#" class="l1">Contact Us</a> </li> 
+	<img class="email" src="images/email.png" alt="Email" width="30px"> &nbsp; info@Ceyloncabs.lk  <br> <br>
+
+	&nbsp;&nbsp;&nbsp;&copy; Ceyloncabs Tech Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Colombo 
+	<img class="phone" src="images/phone.png" alt="Phone" width="20px"> &nbsp;	+9441 0000001 / +9441 0000002
+			
+</div>
+
+</body>
+</html>

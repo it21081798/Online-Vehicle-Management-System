@@ -1,0 +1,122 @@
+/* Add padding to containers */
+/*.container {
+  padding: 16px;
+  background-color: white;
+}*/
+body {
+  background: rgb(58,93,180);
+background: linear-gradient(90deg, rgba(58,93,180,1) 0%, rgba(73,56,75,1) 0%, rgba(46,179,200,1) 0%, rgba(76,187,206,1) 0%, rgba(232,236,170,1) 100%, rgba(33,125,50,1) 100%, rgba(245,242,245,1) 100%, rgba(225,226,236,1) 100%, rgba(144,145,115,1) 100%, rgba(223,224,235,1) 100%);
+}
+
+
+
+.card {
+  
+  box-shadow: 1px 1px 1px 1px white;
+  margin-top: 5%;
+  margin-left:30% ;
+  border-radius: 3%;
+  width: 35%;
+  height:20%;
+  padding: 50px 50px;
+  border:1px solid white;
+
+}
+
+
+.field{
+    text-align: left;
+    font-size: 15px;
+    color:white;
+    margin-right:20px;
+
+}
+
+
+.class1{
+    width:95%;
+    position:relative;
+    left:0px;
+    border-color:darkgray;
+    border-radius:6px;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: none;
+    background: #f1f1f1bd;
+    border-radius: 8px;
+
+}
+
+
+.register{
+  margin-left:15%;
+  border: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-bottom:-1px;
+  margin-left: 35%;
+  background-color: white;
+  width: 30%;      
+
+}
+
+.register:hover {
+  background-color: gray;
+}
+
+
+.dob{
+  margin-left:70%;
+  margin-top:-39%;
+  margin-right:4%;
+  
+}
+
+
+.gen{
+  margin-left: 25px;
+  margin-top:2px;
+  
+
+}
+.sex{
+  color:white;
+}
+
+.subhead {
+ 
+  color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:justify;
+	font-size: 32px;
+	margin-bottom: 30px;
+  margin-left:24%;
+	margin-top: 0px;
+	padding-top: 40px;
+}
+.bcode{
+  padding-left:60%;
+  margin-top:-20.4%;
+  padding-right:3%;
+}
+.bno{
+  padding-right:60%;
+}
+
+
+.hr{
+  width: 76%;
+  margin-left:21%;
+  margin-top: -5.5%;
+}
+.bank{
+  font-size:20px;
+  color:white;
+
+}

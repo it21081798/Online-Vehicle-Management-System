@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+.profile_pic{
+  position: relative;
+  width: 100px;
+  left: 20px;
+  top: 10px;
+ }
+
+
+
+ ul.breadcrumb {
+    position: relative;
+    padding: 5px 0px;
+    list-style: none;
+    top: 15x;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 0px;
+    color: black;
+    content: "|\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    
+  }
+
+
+  .profileback{
+    background-color: rgb(17, 12, 12); /* Fallback color */
+    background-color: rgba(204, 230, 238, 0.24); /* Black w/opacity/see-through */
+    position: relative;
+    top: -800px;
+    margin-right: 66%;
+  }
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("../images/hilux.jpeg");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  .button3{
+	float: right;
+	margin: 40px;
+	background-color: #127dbbdc;
+	border: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	font-size: 17px;
+	transition-duration: 0.3s;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 10px;
+    position:relative;
+    top: -1020px;
+    left:-100px;
+}
+
+.button3:hover{
+    background-color: rgba(9, 116, 14, 0.568);
+}
+
+
+.label{
+  
+    position: relative;
+    top: -750px;
+    right: -5%;;
+    width: 15px;
+    padding: 16px 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e7e4ba81;
+}
+ 
